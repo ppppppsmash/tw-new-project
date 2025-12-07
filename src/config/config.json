@@ -23,10 +23,10 @@
 
   "navigation_button": {
     "enable": true,
-    "label": "Get Started",
+    "label": "Contact Us",
     "translations": {
-      "fr": "Erste Schritte"
+      "fr": "Contactez-nous"
     },
-    "link": "/getting-started/introduction/overview/"
+    "link": "/contact/"
   }
 }
