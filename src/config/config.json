@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "DocKit",
+    "title": "Sample",
     "logo": "/src/assets/logo-light.svg",
     "logo_darkmode": "/src/assets/logo-dark.svg",
     "logo_width": "127",
@@ -18,15 +18,15 @@
       "enable": true,
       "action": "#"
     },
-    "copyright": "Designed and Developed by <a class=\"text-primary hover:underline no-underline\" href=\"https://themefisher.com\" target=\"_blank\" rel=\"noopener\" aria-label=\"Themefisher\">Themefisher</a> Copyright &copy; 2025."
+    "copyright": "copyright copyright copyright"
   },
 
   "navigation_button": {
     "enable": true,
     "label": "Contact Us",
     "translations": {
-      "fr": "Contactez-nous"
+      "de": "Kontaktiere uns"
     },
-    "link": "/contact/"
+    "link": "#"
   }
 }

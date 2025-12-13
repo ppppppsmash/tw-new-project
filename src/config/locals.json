@@ -1,4 +1,4 @@
 {
-  "root": { "label": "English", "lang": "en" },
-  "fr": { "label": "Français", "lang": "fr" }
+  "root": { "label": "Taiwanese", "lang": "tw" },
+  "de": { "label": "Deutsch", "lang": "de" }
 }

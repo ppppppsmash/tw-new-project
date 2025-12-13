@@ -32,6 +32,7 @@ export default defineConfig({
       },
       // @ts-ignore
       social: social.main || [],
+      defaultLocale: "root",
       locales,
       sidebar: sidebar.main || [],
       customCss: ["./src/styles/global.css"],

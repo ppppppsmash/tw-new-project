@@ -5,94 +5,94 @@
       "url": "/"
     },
     {
-      "name": "Documentation",
-      "url": "/getting-started/introduction/overview/"
+      "name": "dummy1*",
+      "url": "#"
     },
     {
-      "name": "Reference",
+      "name": "dummy2*",
       "url": "",
       "hasChildren": true,
       "children": [
         {
-          "name": "Configuration",
-          "url": "/reference/configuration/"
+          "name": "dummy3*",
+          "url": "#"
         },
         {
-          "name": "Plugins Reference",
-          "url": "/reference/plugin/"
+          "name": "dummy4*",
+          "url": "#"
         }
       ]
     }
   ],
   "footer": {
     "community": {
-      "title": "Join Our Community",
+      "title": "dummy5*",
       "links": [
         {
-          "name": "GitHub Discussions",
-          "url": "https://github.com/themefisher/dockit/discussions"
+          "name": "dummy6*",
+          "url": "#"
         },
         {
-          "name": "Discord Community",
-          "url": "/"
+          "name": "dummy7*",
+          "url": "#"
         },
         {
-          "name": "Twitter Updates",
-          "url": "/"
+          "name": "dummy8*",
+          "url": "#"
         },
         {
-          "name": "Contributing Guide",
-          "url": "/"
+          "name": "dummy9*",
+          "url": "#"
         }
       ]
     },
     "help_links": {
-      "title": "Helpful Links",
+      "title": "dummy10*",
       "links": [
         {
-          "name": "Getting Started",
-          "url": "/"
+          "name": "dummy11*",
+          "url": "#"
         },
         {
-          "name": "Privacy Policy",
-          "url": "/privacy-policy"
+          "name": "dummy12*",
+          "url": "#"
         },
         {
-          "name": "Terms and Conditions",
-          "url": "/terms-conditions"
+          "name": "dummy13*",
+          "url": "#"
         },
         {
-          "name": "About Us",
-          "url": "/about"
+          "name": "dummy14*",
+          "url": "#"
         },
         {
-          "name": "Troubleshooting",
-          "url": "/"
+          "name": "dummy15*",
+          "url": "#"
         }
       ]
     },
     "company": {
-      "title": "Resources",
+      "title": "dummy16*",
       "links": [
         {
-          "name": "Documentation Hub",
-          "url": "/docs/"
+          "name": "dummy17*",
+          "url": "#"
         },
         {
-          "name": "Theme Gallery",
-          "url": "/"
+          "name": "dummy18*",
+          "url": "#"
         },
         {
-          "name": "Best Practices",
-          "url": "/"
+          "name": "dummy19*",
+          "url": "#"
         },
         {
-          "name": "Performance Tips",
-          "url": "/"
+          "name": "dummy20*",
+          "url": "#"
         },
         {
-          "name": "Migration Guide",
-          "url": "/"
+          "name": "dummy21*",
+          "url": "#"
         }
       ]
     }
