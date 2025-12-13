@@ -9,14 +9,11 @@ hero:
   tagline: Sample SampleSample SampleSample SampleSample Sample.
 ---
 
-import { ImagesSlider } from "~/components/ImageSlider.tsx";
+import ImageSliderWrapper from "~/components/ImageSliderWrapper.astro";
 
-<Section
-  title="画像スライダー <span class='light-text'>Image Slider</span>"
-  description="画像スライダーコンポーネントの使用例"
->
-  <div style="height: 500px; width: 100%;">
-    <ImagesSlider
+<Section className="-mt-16">
+  <div className="-mt-24">
+    <ImageSliderWrapper
       images={[
         "https://images.unsplash.com/photo-1485433592409-9018e83a1f0d?q=80&w=1814&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1483982258113-b72862e6cff6?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -29,7 +26,7 @@ import { ImagesSlider } from "~/components/ImageSlider.tsx";
         <h2 style="font-size: 2rem; margin-bottom: 1rem;">見本タイトル</h2>
         <p style="font-size: 1.2rem;">見本の説明文</p>
       </div>
-    </ImagesSlider>
+    </ImageSliderWrapper>
   </div>
 </Section>
 

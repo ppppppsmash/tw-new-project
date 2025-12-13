@@ -1,0 +1,31 @@
+---
+import { ImagesSlider } from "./ImageSlider.tsx";
+
+interface Props {
+  images: string[];
+  autoplay?: boolean;
+  direction?: "up" | "down";
+  overlay?: boolean;
+}
+
+const { images, autoplay = true, direction = "up", overlay = true } = Astro.props;
+---
+
+<div class="h-[360px] md:h-[800px] w-full">
+  <ImagesSlider
+    client:load
+    images={images}
+    autoplay={autoplay}
+    direction={direction}
+    overlay={overlay}
+  >
+    <slot />
+  </ImagesSlider>
+</div>
+
+<style>
+  div {
+    position: relative;
+  }
+</style>
+
