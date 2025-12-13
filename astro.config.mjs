@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
+import react from "@astrojs/react";
 import { viewTransitions } from "astro-vtbot/starlight-view-transitions";
 
 import tailwindcss from "@tailwindcss/vite";
@@ -23,6 +24,7 @@ export default defineConfig({
     service: { entrypoint: "astro/assets/services/noop" },
   },
   integrations: [
+    react(),
     starlight({
       title,
       logo: {
